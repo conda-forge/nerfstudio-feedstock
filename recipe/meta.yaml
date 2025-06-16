@@ -24,7 +24,7 @@ build:
     - ns-dev-test = nerfstudio.scripts.github.run_actions:entrypoint
     - ns-dev-sync-viser-message-defs = nerfstudio.scripts.viewer.sync_viser_message_defs:entrypoint
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
