@@ -91,6 +91,16 @@ test:
     - nerfstudio
   commands:
     - pip check
+    - ns-install-cli --help
+    - ns-process-data --help
+    - ns-download-data --help
+    - ns-train --help
+    - ns-viewer --help
+    - ns-eval --help
+    - ns-render --help
+    - ns-export --help
+    - ns-dev-test --help
+    - ns-dev-sync-viser-message-defs --help
   requires:
     - pip
     - python {{ python_min }}
